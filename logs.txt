@@ -1,0 +1,17 @@
+commit bf19e2437e36c32d8067303dec5e0314e2f4ee4a
+Author: CCDM21 <CCDM21@CCDM21.local>
+Date:   Thu Sep 7 10:41:19 2023 -0700
+
+    Encabezado y titulo
+
+commit f310176757583b4b567158df30e6c166b1aa3e66
+Author: CCDM21 <CCDM21@CCDM21.local>
+Date:   Thu Sep 7 10:36:02 2023 -0700
+
+    index modificado
+
+commit 4007aacfe8ad22aca89da45635ac4b451d3488dc
+Author: CCDM21 <CCDM21@CCDM21.local>
+Date:   Thu Sep 7 10:32:27 2023 -0700
+
+    Archivos iniciales de la clase
