@@ -107,6 +107,13 @@ footer article{
     margin-left: 50px;
     width: 30%;
 }
+#secc01art02 ul{
+    list-style: none;
+}
+#secc01art02 ul li:before{
+    color: #FF0099;
+    content: "• ";
+}
 #secc03art04{
     padding-left: 25px;
     padding-top: 40px;
