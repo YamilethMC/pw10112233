@@ -1,0 +1,22 @@
+body{
+    border: 1px solid red;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+header article nav ul li{
+    display: inline-block;
+}
+hr{
+    border-style: dashed;
+    color: #949494;
+}
+.color-verde{
+    color: #97cb78;
+}
+.color-gris{
+    color: #939ba3;
+}
+.nito{
+    font-weight: bold;
+}
