@@ -18,3 +18,27 @@ section{
     display: inline-block;
     margin-left: 520px;
 }
+#secArt02, #secArt03{
+    display: inline-block;
+    border: 1px solid red;
+}
+#secArt02{
+    margin-top: 10px;
+    width: 25%;
+}
+#secArt03{
+    background: #ffffff;
+    margin-left: 273px;
+    margin-top: -240px;
+    width: 73%;
+    border: 1px solid red;
+}
+#art03Art01 article{
+    display: inline-block;
+    padding: 18px 8px;
+    width: 17.9%;
+}
+#art03Art01 article:nth-child(1){
+    border: 1px solid red;
+    background: rgb(37, 166, 44);
+}

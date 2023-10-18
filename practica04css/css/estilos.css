@@ -1,5 +1,4 @@
 body{
-    border: 1px solid red;
     font-size: 16px;
     margin: 0px auto;
     max-width: 1024px;
@@ -20,7 +19,6 @@ hr{
     color: #949494;
 }
 section article{
-    border: 1px solid red;
     display: inline-block;
     height: 500px;
 }
