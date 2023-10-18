@@ -1,0 +1,20 @@
+body{
+    border: 1px solid red;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+header{
+    background: rgb(39,94,144);
+    text-align: center;
+}
+header img{
+    width: 170px;
+}
+section{
+    background: rgb(239,239,239);
+}
+#secArt01{
+    display: inline-block;
+    margin-left: 520px;
+}
