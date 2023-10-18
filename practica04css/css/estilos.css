@@ -4,19 +4,108 @@ body{
     margin: 0px auto;
     max-width: 1024px;
 }
-header article nav ul li{
+footer article{
     display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    width: 16%;
+}
+#foArt05{
+    width: 23%;
+}
+header article{
+    display: inline-block;
+    position: relative;
+    width: 55%;
+}
+#headerArt01{
+    height: 100%;
+    position: absolute;
+}
+#headerArt01 img{
+    margin-left: 20px;
+    margin-top: 35px;
+}
+#headerArt01 nav ul{
+    margin-left: -29px;
+    margin-top: 40px;
+}
+#headerArt01 nav ul li{
+    display: inline-block;
+    padding: 8px 10px;
+}
+#headerArt02{
+    padding: 0 565px;
+    width: 44%;
+}
+#art02art01{
+    margin-left: 310px;
+    width: 100%;
+}
+#art02art02{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 100%;
+}
+#art02art03{
+    margin-left: 37px;
+    margin-top: -3px;
+    width: 100%;
+}
+section article{
+    border: 1px solid red;
+    display: inline-block;
+    height: 500px;
+}
+#sec01Art01{
+    margin-left: 10px;
+    position: relative;
+    top: -135px;
+    width: 54%;
+}
+#section01{
+    margin-bottom: -100px;
+}
+#sec01Art01 img{
+    width: 45%;
+    padding-top: 37px;
+}
+
+#video02{
+    padding-left: 25px;
+}
+#sec01Art02{
+    width: 44%;
+}
+#bike{
+    width: 450px;
+    height: 490px;
+}
+#years{
+    position: relative;
+    top: -95px;
+    right: 15px;
 }
 hr{
     border-style: dashed;
     color: #949494;
 }
 .color-verde{
-    color: #97cb78;
+    color: #51f15e;
 }
 .color-gris{
     color: #939ba3;
 }
+.color-nude{
+    color: #878978;
+}
+.letra-titulo{
+    font-size: 4.3em;
+}
 .nito{
     font-weight: bold;
+}
+.alineado{
+    position: relative;
+    top: -14px;
 }
