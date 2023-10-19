@@ -4,6 +4,20 @@ body{
     margin: 0px auto;
     max-width: 1024px;
 }
+footer{
+    background: #050506;
+    margin-top: 70px;
+}
+footer img{
+    width: 300px;
+}
+footer article article{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px;
+    vertical-align: top;
+    width: 15%;
+}
 header{
     background: #dcdcef;
     height: 150px;
@@ -20,6 +34,17 @@ section{
 }
 section article{
     display: inline-block;
+}
+#fArtprin{
+    margin-left: 60px;
+}
+#fArt05{
+    margin-top: 100px;
+    width: 20%;
+}
+#fArt05 img{
+    margin-left: -10px;
+    width: 40px;
 }
 #seccion01{
     margin-top: 100px;
@@ -38,15 +63,10 @@ section article{
 #seccion01 article article img{
     height: 70px;
 }
-
-
-
 #seccion02{
     margin-top: 70px;
-
     margin-left: -45px;
 }
-
 #seccion02 article article{
     display: inline-block;
     padding: 0 3px;
@@ -61,14 +81,10 @@ section article{
 #seccion02 article article img{
     height: 60px;
 }
-
-
-
 #seccion03{
     margin-top: 70px;
     margin-left: -85px;
 }
-
 #seccion03 article article{
     display: inline-block;
     padding: 0 3px;
@@ -83,36 +99,6 @@ section article{
 #seccion03 article article img{
     height: 60px;
 }
-
-
-footer{
-    background: #050506;
-    margin-top: 70px;
-}
-
-#fArtprin{
-    margin-left: 60px;
-}
-footer article article{
-    display: inline-block;
-    margin-top: 15px;
-    padding: 15px;
-    vertical-align: top;
-    width: 15%;
-}
-
-footer img{
-    width: 300px;
-}
-#fArt05{
-    margin-top: 100px;
-    width: 20%;
-}
-#fArt05 img{
-    margin-left: -10px;
-    width: 40px;
-}
-
 .color-blanco{
     color: #FFFFFF;
 }
