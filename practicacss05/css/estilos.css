@@ -1,44 +1,146 @@
 body{
-    border: 1px solid red;
+
     font-size: 16px;
     margin: 0px auto;
     max-width: 1024px;
 }
-header{
+header article:nth-child(1){
     background: rgb(39,94,144);
     text-align: center;
 }
-header img{
+header article:nth-child(1) img{
     width: 170px;
 }
+header article:nth-child(2){
+    background: rgb(239, 239, 239);
+    border-radius: 5px;
+    text-align: right;
+}
 section{
-    background: rgb(239,239,239);
-}
-#secArt01{
     display: inline-block;
-    margin-left: 520px;
+    background: rgb(239, 239, 239);
 }
-#secArt02, #secArt03{
-    display: inline-block;
-    border: 1px solid red;
-}
-#secArt02{
-    margin-top: 10px;
+#seccion01{
     width: 25%;
+    height: 615px;
 }
-#secArt03{
-    background: #ffffff;
-    margin-left: 273px;
-    margin-top: -240px;
-    width: 73%;
-    border: 1px solid red;
+#sec01Art01{
+    background: rgb(32, 74, 114);
+    margin-left: 15px;
+    width: 88.5%;
+    height: 270px;
 }
-#art03Art01 article{
+#sec01Art01 ul li{ 
+    margin-left: -30px;
+    margin-bottom: 7px;
+}
+#sec01Art02{
+    background: rgb(39, 94, 144);
+    margin-left: 14px;
+    margin-top: 20px;
+    width: 88.5%;
+    height: 40px;
+}
+#sec01Art02 img{
+    margin-left: 5px;
+    height: 40px;
+}
+#sec01Art03{
+    background: #FFFFFF;
+    margin-left: 14px;
+    width: 88.5%;
+    height: 260px;
+}
+#sec01Art03 img{
+    margin-bottom: 13px;
+    margin-left: 5px;
+    margin-top: -5px;
+    width: 95%;
+}
+#seccion02{
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    top: -119px;
+    width: 74%;
+}
+#seccion01 article:nth-child(1) ul{
+    list-style: none;
+}
+#seccion01 article:nth-child(1) ul li::before{
+    color: #FFFFFF;
+    content: "</>";
+}
+#sec02Art01 article{
     display: inline-block;
-    padding: 18px 8px;
-    width: 17.9%;
+    height: 130px;
+    padding: 8px 4.5px;
+    text-align: center;
+    vertical-align: top;
+    width: 22%;
 }
-#art03Art01 article:nth-child(1){
-    border: 1px solid red;
+#sec02Art01 article:nth-child(1){
     background: rgb(37, 166, 44);
+}
+#sec02Art01 article:nth-child(2){
+    background: rgb(33, 110, 167);
+}
+#sec02Art01 article:nth-child(3){
+    background: rgb(126, 36, 166);
+}
+#sec02Art01 article:nth-child(4){
+    background: rgb(165, 28, 31);
+}
+#sec02Art01 img{
+    width: 80px;
+}
+#sec02Art02 img{
+    width: 720px;
+    height: 150px;
+}
+#sec02Art03 article{
+    background: rgb(76, 108, 172);
+    display: inline-block;
+    padding: 8px 4.5px;
+    vertical-align: top;
+    width: 22%;
+}
+#sec02Art03 img{
+    width: 110px;
+    height: 100px;
+}
+#sec02Art03 input{
+    border: rgb(92, 191, 216);
+    background: rgb(92, 191, 216);
+    color: #FFFFFF;
+    padding: 5px;
+}
+.alineado{
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
+}
+.color-blanco{
+    color: #FFFFFF;
+}
+.color-gris{
+    color: #353535;
+}
+.en-medio{
+    position: relative;
+    top: -14px;
+    left: 2px;
+}
+.tamaño-pequeño{
+    font-size: 0.8em;
+}
+.tamaño-mediano{
+    font-size: 1.2em;
+}
+.tamaño-relativo{
+    font-size: 0.6em;
+}
+.texto-izq{
+    margin-left: -620px;
 }
