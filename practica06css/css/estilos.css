@@ -1,0 +1,144 @@
+body{
+
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+header{
+    background: #dcdcef;
+    height: 150px;
+    padding-top: 60px;
+    text-align: center;
+}
+header input{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 360px;
+}
+section{
+    text-align: center;
+}
+section article{
+    display: inline-block;
+}
+#seccion01{
+    margin-top: 100px;
+}
+#seccion01 article article{
+    display: inline-block;
+    padding: 0 7px;
+    vertical-align: top;
+}
+#seccion01 article:nth-child(2){
+    margin-left: 20px;
+}
+#seccion01 article article:nth-child(2){
+    margin-left: -5px;
+}
+#seccion01 article article img{
+    height: 70px;
+}
+
+
+
+#seccion02{
+    margin-top: 70px;
+
+    margin-left: -45px;
+}
+
+#seccion02 article article{
+    display: inline-block;
+    padding: 0 3px;
+    vertical-align: top;
+}
+#seccion02 article:nth-child(2){
+    margin-left: 27px;
+}
+#seccion02 article article:nth-child(2){
+    margin-left: 10px;
+}
+#seccion02 article article img{
+    height: 60px;
+}
+
+
+
+#seccion03{
+    margin-top: 70px;
+    margin-left: -85px;
+}
+
+#seccion03 article article{
+    display: inline-block;
+    padding: 0 3px;
+    vertical-align: top;
+}
+#seccion03 article:nth-child(2){
+    margin-left: 40px;
+}
+#seccion03 article article:nth-child(2){
+    margin-left: 10px;
+}
+#seccion03 article article img{
+    height: 60px;
+}
+
+
+footer{
+    background: #050506;
+    margin-top: 70px;
+}
+
+#fArtprin{
+    margin-left: 60px;
+}
+footer article article{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px;
+    vertical-align: top;
+    width: 15%;
+}
+
+footer img{
+    width: 300px;
+}
+#fArt05{
+    margin-top: 100px;
+    width: 20%;
+}
+#fArt05 img{
+    margin-left: -10px;
+    width: 40px;
+}
+
+.color-blanco{
+    color: #FFFFFF;
+}
+.color-lila{
+    color: #a6a6ff;
+}
+.flecha{
+    position: absolute;
+    top: 125px;
+    left: 870px;
+}
+.letra-footer{
+    font-size: 0.68em;
+}
+.letra-intermedia{
+    font-size: 0.75em;
+}
+.learn-more{
+    font-size: 0.85em;
+}
+.letra-titulo{
+    font-size: 2.5em;
+}
+.texto-izq{
+    text-align: left;
+}
+.nito{
+    font-weight: bold;
+}
