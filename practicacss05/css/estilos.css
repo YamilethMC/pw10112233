@@ -1,11 +1,10 @@
 body{
-
     font-size: 16px;
     margin: 0px auto;
     max-width: 1024px;
 }
 header article:nth-child(1){
-    background: rgb(39,94,144);
+    background: #265d93;
     text-align: center;
 }
 header article:nth-child(1) img{
@@ -14,11 +13,25 @@ header article:nth-child(1) img{
 header article:nth-child(2){
     background: rgb(239, 239, 239);
     border-radius: 5px;
+    padding-bottom: 20px;
+    padding-right: 35px;
     text-align: right;
+}
+header article:nth-child(2) img:nth-child(1){
+    width: 110px;
+}
+header article:nth-child(2) img:nth-child(2){
+    width: 90px;
+}
+header article:nth-child(2) img:nth-child(3){
+    width: 70px;
 }
 section{
     display: inline-block;
     background: rgb(239, 239, 239);
+    margin-top: -7px;
+    
+    padding-right: 2px;
 }
 #seccion01{
     width: 25%;
@@ -60,10 +73,11 @@ section{
 #seccion02{
     background: #FFFFFF;
     border-radius: 10px;
+    margin-left: -5px;
     position: relative;
     text-align: center;
     top: -119px;
-    width: 74%;
+    width: 74.55%;
 }
 #seccion01 article:nth-child(1) ul{
     list-style: none;
