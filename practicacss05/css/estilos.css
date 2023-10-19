@@ -11,7 +11,7 @@ header article:nth-child(1) img{
     width: 170px;
 }
 header article:nth-child(2){
-    background: rgb(239, 239, 239);
+    background: #e9eaeb;
     border-radius: 5px;
     padding-bottom: 20px;
     padding-right: 35px;
@@ -28,7 +28,7 @@ header article:nth-child(2) img:nth-child(3){
 }
 section{
     display: inline-block;
-    background: rgb(239, 239, 239);
+    background: #e9eaeb;
     margin-top: -7px;
     
     padding-right: 2px;
@@ -48,7 +48,7 @@ section{
     margin-bottom: 7px;
 }
 #sec01Art02{
-    background: rgb(39, 94, 144);
+    background: #275d91;
     margin-left: 14px;
     margin-top: 20px;
     width: 88.5%;
@@ -95,16 +95,16 @@ section{
     width: 22%;
 }
 #sec02Art01 article:nth-child(1){
-    background: rgb(37, 166, 44);
+    background: #1ca823;
 }
 #sec02Art01 article:nth-child(2){
-    background: rgb(33, 110, 167);
+    background: #1c6ca9;
 }
 #sec02Art01 article:nth-child(3){
-    background: rgb(126, 36, 166);
+    background: #7d1ba6;
 }
 #sec02Art01 article:nth-child(4){
-    background: rgb(165, 28, 31);
+    background: #a51b1a;
 }
 #sec02Art01 img{
     width: 80px;
@@ -114,7 +114,7 @@ section{
     height: 150px;
 }
 #sec02Art03 article{
-    background: rgb(76, 108, 172);
+    background: #4d6caa;
     display: inline-block;
     padding: 8px 4.5px;
     vertical-align: top;
