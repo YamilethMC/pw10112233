@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const pi = 3.14;
+        //pi = 3.1416;
+        var a =33;
+        let b = 99999;
+        if(b != undefined ){
+            //document.writeln("Valor b " +b);
+            document.writeln(`Valor b ${b}`);
+        }
+        for(let a=0;a<=10;a++){
+            document.writeln(a);
+        }
+        document.writeln("<br>");
+        document.writeln(a);
+        let z = 4;
+        let y = 8;
+        document.writeln("<br>");
+        document.writeln(""+(z+y));
+        alert("Bienvenidos");
+        let mensaje = prompt("Dime tu nombre", "Nombre de persona");
+        document.writeln("<br>");
+        if(mensaje != null){
+            document.writeln(mensaje);
+        }
+        function suma(a,b){
+            return a+b;
+        }
+        let f = function(a,b){return a+b;}
+    </script>
+</body>
+</html>
