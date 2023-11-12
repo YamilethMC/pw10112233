@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+</head>
+<body>
+    <label for="nombrePersonaje">Nombre del personaje de Marvel</label>
+    <br>
+    <input type="text" id="nombrePersonaje">
+    <button onclick="apimarvel();">
+        Buscar 
+    </button>
+    <p></p>
+    <article id="caja">
+        <img src="" alt="" id="foto">
+        <br>
+        Nombre
+        <br>
+        <span id="nombre"></span>
+        <p></p>
+        Descripción
+        <br>
+        <span id="descripcion"></span>
+        <p></p>
+        Cantidad de comics disponibles
+        <br>
+        <span id="comics"></span>
+    </article>
+    <script src="randommarvel.js"></script>
+</body>
+</html>
